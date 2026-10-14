@@ -30,7 +30,7 @@ Requisitos: Python 3.14 y PostgreSQL 18 con una base de datos llamada `enoe`.
 python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
 ```
-Copia `.env.example` a `.env` y llena tus credenciales de PostgreSQL (el archivo `.env` no se sube a Git). Descarga los datos como indica [FUENTE.md](FUENTE.md) y ejecuta en orden:
+Copia `.env.example` a `.env` y llena tus credenciales de PostgreSQL. Descarga los datos como indica [FUENTE.md](FUENTE.md) y ejecuta en orden:
 
 | Paso | Comando | Resultado |
 |---|---|---|
@@ -43,4 +43,4 @@ Copia `.env.example` a `.env` y llena tus credenciales de PostgreSQL (el archivo
 | 7 | `python src/04_graficas.py` | Gráficas en `reports/figures/` |
 
 ## Estructura
-`data/` (ignorada por Git) · `sql/` catálogos y consultas · `src/` scripts · `reports/` resultados, hallazgos y gráficas
+ · `sql/` catálogos y consultas · `src/` scripts · `reports/` resultados, hallazgos y gráficas
