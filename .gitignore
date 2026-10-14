@@ -1,0 +1,16 @@
+# Entorno y secretos
+.venv/
+.env
+__pycache__/
+*.pyc
+
+# Datos pesados (se reproducen con src/descarga_enoe.py)
+data/raw/
+data/interim/
+*.csv
+*.zip
+
+# Jupyter / OS
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
