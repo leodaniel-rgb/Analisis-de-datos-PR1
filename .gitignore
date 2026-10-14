@@ -10,6 +10,9 @@ data/interim/
 *.csv
 *.zip
 
+# Notas de estudio personales (no se suben a GitHub)
+notas_clase/
+
 # Jupyter / OS
 .ipynb_checkpoints/
 .DS_Store
