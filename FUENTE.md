@@ -24,5 +24,11 @@ Se comprobó que el CSV de 2026 trae 115 columnas y todas las variables que usa 
 
 Códigos verificados en el diccionario: `EMP_PPAL` 1 = empleo informal, 2 = empleo formal, 0 = no aplica; `CLASE2` 1 = población ocupada; `NIV_INS` 1–4 (4 = medio superior y superior), 5 = no especificado; `RAMA` 1 = construcción, 2 = industria manufacturera, 3 = comercio, 4 = servicios, 5 = otros, 6 = agropecuario, 7 = no especificado. Factor de expansión: `FAC_TRI`.
 
+## Validación contra cifras oficiales
+Los resultados se contrastaron con el Cuadro 5 del Boletín de indicador 503/26 de INEGI (25 de agosto de 2026, página 13/16):
+- https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/enoe/enoe2026_08.pdf
+
+Resultado: las 32 entidades coinciden exactamente en población ocupada y en tasa de informalidad laboral (TIL1). Nacional: 60,040,094 ocupados y 55.1 %; San Luis Potosí: 1,329,458 ocupados y 54.9 %.
+
 ## Reproducir
 Los datos crudos no se suben a Git (ver `.gitignore`). Descarga el zip de la URL, verifica el SHA-256 y extrae en `data/raw/enoe_2026_t2/`.
