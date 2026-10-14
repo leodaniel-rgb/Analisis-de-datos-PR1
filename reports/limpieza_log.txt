@@ -1,0 +1,19 @@
+1. Filas en raw: 417,128
+2. Duplicados exactos: 0 | duplicados por llave de persona: 0
+3. Con fac_tri > 0 (residentes con entrevista completa): 407,107  (se excluyen 10,021)
+4. De 15 anios o mas: 324,305  (se excluyen 82,802)
+5. Poblacion ocupada (clase2 = 1): 189,353  (se excluyen 134,952)
+   Poblacion ocupada expandida: 60.04 millones (INEGI publica 60.0 millones)
+6. anios_esc = 99 (no especificado) -> NULL: 622
+   rama = 7 (no especificado) -> NULL: 1,432
+   pos_ocu = 5 (no especificado) -> NULL: 0
+   niv_ins = 5 (no especificado) -> NULL: 500
+7. Tipo de ingreso (muestra y ponderado):
+                   size       sum  pct_muestra  pct_ponderado
+tipo_ingreso                                                 
+monto_declarado  123546  38982653         65.2           64.9
+no_especificado   19097   5215571         10.1            8.7
+no_recibe          7440   2676153          3.9            4.5
+solo_rango        39270  13165717         20.7           21.9
+8. hrsocup: min 0, max 168 | ingocup_pesos: min 17, max 250000
+9. clean.ocupados_2026t2 cargada: 189,353 filas, 19 columnas
