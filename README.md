@@ -15,7 +15,7 @@ ENOE, segundo trimestre de 2026, tabla sociodemográfica `SDEMT`. Detalle, fecha
 python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
 ```
-Copia `.env.example` a `.env` y llena tus credenciales de PostgreSQL (el archivo `.env` no se sube a Git).
+Copia `.env.example` a `.env` y llena tus credenciales de PostgreSQL 
 
 ## Estructura
 `data/` (ignorada por Git) · `sql/` consultas · `src/` scripts · `notebooks/` · `reports/figures/` gráficas
